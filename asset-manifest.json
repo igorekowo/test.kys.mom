@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a07085fb.css",
+    "main.js": "/static/js/main.ae5304b1.js",
+    "static/js/787.ea40dad3.chunk.js": "/static/js/787.ea40dad3.chunk.js",
+    "static/media/cursor.cur": "/static/media/cursor.6901ad9a6eead8a23cc2.cur",
+    "static/media/Discord-Logo-Color.svg": "/static/media/Discord-Logo-Color.1a0c3dc4dcc0b742fb4cadd8fd118649.svg",
+    "static/media/Twitter-Logo-Blue.svg": "/static/media/Twitter-Logo-Blue.bf36f3f69522a27a80a43488f00cffa0.svg",
+    "index.html": "/index.html",
+    "main.a07085fb.css.map": "/static/css/main.a07085fb.css.map",
+    "main.ae5304b1.js.map": "/static/js/main.ae5304b1.js.map",
+    "787.ea40dad3.chunk.js.map": "/static/js/787.ea40dad3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a07085fb.css",
+    "static/js/main.ae5304b1.js"
+  ]
+}
