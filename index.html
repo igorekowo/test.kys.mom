@@ -56,11 +56,16 @@
         <br>
         <h1 class="text-3xl text-white font-extralight cursor-pointer" style="text-shadow: 0 0 0.10em rgb(255, 255, 255);">now I listening (＾▽＾)</h1>
         <br>
-        <div class="wrap" >
-          <iframe class="frame" src="https://spotify-github-profile.vercel.app/api/view?uid=31no7jklwxihujhxpahc4pndv5iy&cover_image=true&theme=compact&show_offline=true&background_color=121212&interchange=true" width="320" height="400" scrolling="no"></iframe>
+        <div class="spoti">
+          <iframe src="https://spotify-github-profile.vercel.app/api/view?uid=31no7jklwxihujhxpahc4pndv5iy&cover_image=true&theme=compact&show_offline=true&background_color=121212&interchange=true" id="np" width="320" height="400" scrolling="no"></iframe>
         </div>
       </div>
     </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.body.addEventListener('click', hideClickAnywhere);
+      });
+    </script>
     <script src="js/main.js"></script>
     <script>
       type(["(*≧ω≦*)", "i luv igorekowo :3", "meow ^_^"], typewriterElement,textIndex,charIndex,isDeleting, isLineVisible);
