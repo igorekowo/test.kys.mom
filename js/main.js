@@ -100,3 +100,15 @@ document
             }
         }, 250);
     }
+
+    function refreshiframe() {
+        document.getElementById('np').src += '';
+      }
+      
+      if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+        // true for mobile device
+        setInterval(refreshiframe, 20000);
+      }else{
+        // false for not mobile device
+        setInterval(refreshiframe, 5000);
+      }
